@@ -1,0 +1,9 @@
+.button {
+  border-radius: 20px;
+  padding: 15px;
+  z-index: 3;
+  transition: background-color 1s ease-in-out; /* Транзиція для зміни кольору фону */
+  color: bisque;
+  background-color: black;
+  font-size: 18px;
+}

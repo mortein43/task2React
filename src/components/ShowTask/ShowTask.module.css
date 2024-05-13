@@ -1,0 +1,62 @@
+.showTask {
+  width: 950px;
+  height: 200px;
+  background-color: rgb(172, 152, 152);
+  margin: 0 auto;
+  border-radius: 20px;
+  position: relative;
+  padding: 50px;
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+.animate {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+.content > ol > li {
+  margin-bottom: 10px;
+  list-style: none;
+}
+.img > img {
+  width: 300px;
+  border-radius: 10px;
+}
+.buble1,
+.buble2,
+.buble3,
+.buble4 {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  border-radius: 50%;
+  background: #fff;
+  z-index: 0;
+}
+.buble1 {
+  top: -10px;
+  left: -10px;
+}
+.buble2 {
+  top: -10px;
+  right: -10px;
+}
+.buble3 {
+  bottom: -10px;
+  left: -10px;
+}
+.buble4 {
+  bottom: -10px;
+  right: -10px;
+}
